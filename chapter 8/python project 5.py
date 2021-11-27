@@ -1,7 +1,6 @@
-lstangka = []
-angka = int(input('berapa banyak angka yang ingin anda urutkan: '))
-for n in range(angka):
-    numbers = int(input('Enter number '))
-    lstangka.append(numbers)
-lstangka.sort(reverse=True)
-print("urutan angkanya adalah :"+ str(lstangka))
+bil = [2, 4, 5, 6]  
+kuadrat = []
+for i in range (len(bil)):
+    angka = bil[i]**2
+    kuadrat.append(angka)
+print('hasil kuadratnya adalah: ' + str(kuadrat))

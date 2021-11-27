@@ -38,6 +38,7 @@ def hapusbuah():
     except KeyError:
         print('buah tidak ada silahkan coba lagi')
         hapusbuah()
+        
 print('Menu:\nA.	Tambah data buah\nB.	Beli buah\nC.	Hapus Buah')
 option = input('masukan pilihan anda :')
 if option == 'A':

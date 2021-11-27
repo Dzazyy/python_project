@@ -1,4 +1,4 @@
-my_list = [{'name':'Homer', 'age':39}, {'name':'Bart', 'age':10}]
-
-my_list.sort(lambda x,y : cmp(x['name'], y['name']))
-print(my_list)
+buah = {'apel' : 5000, 'jeruk' : 8500, 'mangga' : 7800, 'duku' : 6500}
+sortbuah = sorted(buah.items(), key=lambda x: x[1], reverse=True)
+for i in sortbuah:
+	print(i[0], i[1])

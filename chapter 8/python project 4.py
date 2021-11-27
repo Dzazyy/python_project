@@ -9,7 +9,7 @@ while True:
             nama = input('Masukan nama sayur yang ingin anda Hapus: ')
             sayur.remove(nama)
         except ValueError:
-            print('pastikan apa yang anda hapus data di list: ')
+            print('pastikan apa yang anda hapus terdapat di dalam list: ')
             print(sayur)
             hapusdatasayur()
     def Tampilkandatasayur():

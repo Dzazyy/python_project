@@ -23,13 +23,12 @@ def tambahbuah():
         if nambuah == '':
             break
         if nambuah in buah:
-            print('Nama Buah ' + str(nambuah) + 'harganya Rp' + str(buah[nambuah]))
+            print('Nama Buah ' + str(nambuah) + ' harganya Rp. ' + str(buah[nambuah]))
         else:
             print('buah belum ada didalam daftar ')
             harbuah = int(input('Masukkan harga satuan		: '))
             buah[nambuah] = harbuah
             print('buah telah diupdate')
-            print(buah)
 
 print('Menu:\nA.	Tambah data buah\nB.	Beli buah')
 option = input('masukan pilihan anda :')
