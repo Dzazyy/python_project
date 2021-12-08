@@ -1,0 +1,3 @@
+M01|Udin|Crash course Python|2021-12-08|2021-12-15
+M21|Agus|SQL Inject|2021-12-08|2021-12-15
+M11|Gita|C++ Master|2021-12-00|2021-12-07

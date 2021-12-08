@@ -1,0 +1,1 @@
+tanggalnya = x.split('-')
